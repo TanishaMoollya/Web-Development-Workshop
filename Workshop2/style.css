@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background: #f8fafc;
+    padding: 24px;
+    text-align: center;
+}
+
+.btn {
+    padding: 6px 14px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#search {
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 220px;
+}
+
+.btn.active {
+    background: #2563eb;
+    color: #fff;
+    border-color: #2563eb;
+}
+
+.btns {
+    margin: 12px 0 24px;
+}
+
+#grid {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    display: inline-block;
+}
+
+.badge {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
